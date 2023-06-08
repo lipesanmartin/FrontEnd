@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(122, 12, 41);
+}
+
+p {
+    color: whitesmoke;
+}
+
+.navbar img {
+    width: 80%;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-weight: 700;
+
+}
+
+.meiuca {
+    margin-bottom: 25px;
+}
+
+.carrossel {
+    margin-bottom: 25px;
+}
+
+.nav-item a {
+    color: rgb(122, 12, 41) !important;
+}
+
+.nav-item a:hover {
+    text-decoration: underline !important;
+}
+
+.active {
+    text-decoration: underline !important;
+
+}
+
+.meu-titulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.meu-titulo h5 {
+    color: whitesmoke;
+    margin-left: 10px;
+
+}
+
+.card {
+    background-color: rgb(122, 12, 41);
+    border: 0px;
+
+}
+
+.card img {
+    border-radius: 3%;
+}
+
+.card-header {
+    background-color: whitesmoke;
+    border: 1px;
+    border-color: whitesmoke;
+}
+
+.btn-card {
+    background-color: whitesmoke;
+    border: 0px;
+    color: rgb(122, 12, 41);
+    font-weight: bold;
+}
+
+.btn-card:hover {
+    background-color: rgb(122, 12, 41);
+    color: whitesmoke;
+    text-decoration: underline;
+
+}
+
+.collapse {
+    color: whitesmoke;
+}
+
+.btn-link {
+    font-weight: bolder;
+    font-size: small;
+    color: rgb(122, 12, 41);
+}
+
+.btn-link:hover {
+    color: rgb(122, 12, 41);
+}
+
+.botoes-card1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+footer p {
+    color: rgb(122, 12, 41);
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+
+
+
+
+@media (min-width:768px) {
+
+    .btn-link {
+        font-size: medium;
+    }
+
+    .card-img-top {
+        width: 150%;
+    }
+
+    .card-text {
+        font-size: large;
+        width: 160%;
+    }
+
+    .navbar img {
+        width: 100%;
+    }
+
+}

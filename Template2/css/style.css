@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+    background-color: black;
+}
+
+h5 {
+    color: gainsboro;
+}
+
+.bg-cinza {
+    background-color: #eaeaea;
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+.nav-item {
+    margin-right: 25px;
+    font-weight: 700;
+}
+
+.slider {
+    margin: 5px 0px 20px 0px;
+}
+
+.card {
+    width: 18rem;
+    background-color: black;
+    border: 0px;
+}
+
+.card-text {
+    color: #eaeaea;
+}
+
+.meu-btn {
+    color: black;
+    background-color: #eaeaea;
+    border: 0px
+}
+
+.fundo-cinza {
+    background-color: gray;
+    padding: 15px 0px;
+}
+
+form {
+    width: 80%;
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+footer {
+    height: 50px;
+    background-color: #eaeaea;
+    text-align: center;
+    color: black;
+}
